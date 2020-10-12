@@ -1,0 +1,207 @@
+/* HOMEPAGE */
+/*Image Credit: Mister Mister on Pexels (https://www.pexels.com/photo/tray-of-cinnamon-3434526/)*/
+/*Font ('Baking Pastry') Credit: Burhan Afif (https://www.dafont.com/baking-pastry.font) */
+@font-face{
+    font-family: Baking Pastry bold;
+    src: url(BakingPastry.tff);
+}  
+    
+body {
+    background-color: #FFFCED;
+}
+
+.slideshow {
+    position: relative;
+    width:1270px;
+    height:560px;
+    padding: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #e8edf2;
+    background-image: url("Images/Slideshow/BBBS_Slideshow.png");
+    
+}
+
+.header_images, .home {
+    margin: 30px;
+}
+.header_images, .menu {
+    margin: 30px;
+}
+.header_images, .flavors {
+    margin: 30px;
+}
+.header_images, .faqs {
+    margin: 30px;
+}
+.header_images, .contact {
+    margin: 30px;
+}
+.header_images, .account {
+    margin: 30px;
+}
+.header_images, .cart {
+    margin: 30px;
+}
+
+.slideshowtext {
+   font: 20px Quicksand;
+   letter-spacing: 4px;
+   line-height: 45px;;
+   position: absolute;
+   top: 130px;
+   left: 50px;
+   text-align: center;
+   color: #955B36;
+
+}
+
+.browseflavors {
+    width: 360px;
+    height: 59px;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    font-family: "Baking Pastry";
+    letter-spacing: 8px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #955B36;
+    color: #FFFCED;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    
+}
+.browseflavors:hover {
+    background-color: #B67A54;
+    cursor: pointer;
+}
+.leftarrow{
+    position: absolute;
+    top:280px;
+    left: 5px;
+}
+.rightarrow{
+    position: absolute;
+    top:280px;
+    right: 5px;
+}
+
+.header_text, a:link, a:visited{
+    color: #955B36;
+    text-decoration: none;
+}
+.header_text {
+    font: 10px Quicksand;
+    color: #955B36;
+    letter-spacing: 4px;
+}
+header {
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.header_text {
+    position: absolute;
+    top: 145px;
+    left: 330px;
+}
+.header_text .cart{
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+.header_text .menu {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+.header_text .home {
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
+.header_text .faqs {
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+.header_text .flavors {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+.header_text .contact, .account {
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+.header_text .home {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header_text .menu {
+    margin-left: 72px;
+    margin-right: 30px;
+}
+.header_text .flavors {
+    margin-left: 63px;
+    margin-right: 30px;
+}
+.header_text .faqs {
+    margin-left: 58px;
+    margin-right: 30px;
+}
+.header_text .contact {
+    margin-left: 55px;
+    margin-right: 30px;
+}
+.header_text .account {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+.header_text .cart {
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.header_images {
+    position: absolute;
+    top: 65px;
+    left: 280px;
+}
+.header_images .home, .menu, .flavors, .faqs, .contact, .account, .cart {
+    margin-left: 61px;
+    margin-right: 61px;
+}
+.header_images .home {
+    position: relative;
+    top: 5px;
+}
+.header_images .menu {
+    position: relative;
+    top: 6px;
+}
+.header_images .flavors {
+    position: relative;
+    top: 10px;
+}
+.header_images .contact {
+    position: relative;
+    top: 2px;
+}
+.header_images .account, .cart {
+    position: relative;
+    top: 5px;
+}
+

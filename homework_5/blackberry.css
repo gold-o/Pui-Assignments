@@ -1,0 +1,270 @@
+/* HEADER */
+/*Font ('Baking Pastry') Credit: Burhan Afif (https://www.dafont.com/baking-pastry.font) */
+
+@font-face{
+    font-family: Baking Pastry normal;
+    src: url(BakingPastry.tff);
+}  
+    
+body {
+    background-color: #FFFCED;
+}
+.header_images, .home {
+    margin: 30px;
+}
+.header_images, .menu {
+    margin: 30px;
+}
+.header_images, .flavors {
+    margin: 30px;
+}
+.header_images, .faqs {
+    margin: 30px;
+}
+.header_images, .contact {
+    margin: 30px;
+}
+.header_images, .account {
+    margin: 30px;
+}
+.header_images, .cart {
+    margin: 30px;
+}
+
+.header_text, a:link, a:visited{
+    color: #955B36;
+    text-decoration: none;
+}
+.header_text {
+    font: 10px Quicksand;
+    color: #955B36;
+    letter-spacing: 4px;
+}
+header {
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.header_text {
+    position: absolute;
+    top: 145px;
+    left: 330px;
+}
+.header_text .cart{
+    position: relative;
+    top: 2px;
+    left: 0px;
+}
+.header_text .menu {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+.header_text .home {
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
+.header_text .faqs {
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+.header_text .flavors {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+.header_text .contact, .account {
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+.header_text .home {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header_text .menu {
+    margin-left: 72px;
+    margin-right: 30px;
+}
+.header_text .flavors {
+    margin-left: 63px;
+    margin-right: 30px;
+}
+.header_text .faqs {
+    margin-left: 58px;
+    margin-right: 30px;
+}
+.header_text .contact {
+    margin-left: 55px;
+    margin-right: 30px;
+}
+.header_text .account {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+.header_text .cart {
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.header_images {
+    position: absolute;
+    top: 65px;
+    left: 280px;
+}
+.header_images .home, .menu, .flavors, .faqs, .contact, .account, .cart {
+    margin-left: 61px;
+    margin-right: 61px;
+}
+.header_images .home {
+    position: relative;
+    top: 5px;
+}
+.header_images .menu {
+    position: relative;
+    top: 6px;
+}
+.header_images .flavors {
+    position: relative;
+    top: 10px;
+}
+.header_images .contact {
+    position: relative;
+    top: 2px;
+}
+.header_images .account, .cart {
+    position: relative;
+    top: 5px;
+}
+
+
+/* PRODUCT DETAIL */
+
+
+.blackberrycinnamon {
+    position: relative;
+    left: 80px;
+    margin-bottom: 65px;
+
+}
+
+h3 {
+    font-family: "Baking Pastry";
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-size: 36px;
+    /*text-align: center;*/
+    color: #FE959F;
+}
+h4 {
+    font-family: "Baking Pastry";
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-size: 23px;
+    /*text-align: center;*/
+    color: #FE959F;
+    margin-top: 45px;
+}
+h3,h4 {
+    margin-bottom: 10px;
+
+}
+p {
+    font: 11px Quicksand;
+    letter-spacing: 4px;
+    line-height: 15px;
+    color: #955B36;
+}
+#quantity {
+    font-size: 13px;
+}
+.quantity1,.quantity3,.quantity6,.quantity12 {
+    width: 60px;
+    height: 60px;
+    font: 16px Quicksand;
+    letter-spacing: 4px;;
+    text-align: center;
+    color: #955B36;
+    background-color: #FFFCED;
+    border: solid 1px #FE959F;
+    margin-top: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.glazenone,.glazesugar,.glazevanilla,.glazechocolate{
+    width: 70px;
+    height: 70px;
+    font: 9px Quicksand;
+    letter-spacing: 3px;
+    line-height: 12px;
+    text-align: center;
+    color: #955B36;
+    background-color: #FFFCED;
+    border: solid 1px #FE959F;
+    margin-top: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.glazesugar {
+    position: relative;
+    bottom: 7px;
+}
+.glazevanilla {
+    position: relative;
+    bottom: 7px;
+}
+.glazechocolate{
+    position: relative;
+    bottom: 14px;
+}
+button:hover {
+    background-color: #955B36;
+    color:#FFFCED;
+    cursor: pointer;
+
+}
+#addtocart {
+    width: 280px;
+    height: 45px;
+    font-family: "Baking Pastry";
+    letter-spacing: 9px;
+    font-size: 27px;
+    text-align: center;
+    background-color: #955B36;
+    color: #FFFCED;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.description {
+    position: absolute;
+    left: 600px;
+    top: 290px;
+    
+}
+#arrow {
+    position: relative;
+    left: 75px;
+    width: 210px;
+    margin-bottom: 20px;
+}
+#returntomenu {
+    position: relative;
+    left: 105px;
+    margin-top:50px;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+#addtocart:hover {
+    background-color: #B67A54;
+    cursor: pointer;
+}
